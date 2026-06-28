@@ -7,8 +7,9 @@
 <style>
 body {
     margin:0;
-    font-family:Arial, sans-serif;
-    background:#f5f9ff;
+    font-family: "Brush Script MT";
+    font-size: 20px;
+    background: #f9f6f0;
     color:#333;
     background-image: url('dogs_photo.png');
     background-position: center;
@@ -21,7 +22,7 @@ body {
     color:white;
     text-align:center;
     padding:40px 20px;
-    height:200px
+    height:150px
 }
 .price {
     font-size:2rem;
@@ -30,7 +31,7 @@ body {
 }
 .container {
     margin:auto;
-    padding:40px 20px;
+    padding:40px 40px;
     max-width:400px;
     align-items: center;
 }
@@ -66,7 +67,33 @@ footer {
     padding:20px;
     margin-top:40px;
 }
-</style>
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: violet; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+.btn:hover {
+    background: #1E5CE3;
+}
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: purple; /* Add an active/current color */
+}</style>
 </head>
 <body>
 
@@ -75,6 +102,13 @@ footer {
     <p>Professional Dog Grooming with Lori Horn</p>
     <div class="price">$65 Full Groom</div>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="icon-bar">
+  <a class="active" href="index.html"><i class="home"></i>Home</a>
+  <a href="Aboutme.html"><i class="About Me"></i>About Me</a>
+</div>
+
 
 <div class="container">
     <div class="card">
@@ -93,7 +127,7 @@ footer {
         <h2>Contact Lori Horn</h2>
         <p>Located in West Melbourne, Florida</p>
         <a class="btn" href="tel:0000000000">Call</a>
-        <a class="btn" href="https://www.facebook.com/share/1BNuk8YZbk/?mibextid=wwXIfr">Message</a>
+        <a class="btn" href="https://www.facebook.com/share/17d7N6CE1E/?mibextid=wwXIfr">Message</a>
     </div>
 </div>
 
