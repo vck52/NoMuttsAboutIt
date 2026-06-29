@@ -12,6 +12,13 @@
     font-weight: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Scipt MT';
+    src: url('ScriptMTBold.woff2') format('woff2'),
+         url('ScriptMTBold.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
 body {
     margin:0;
     font-family: "Brush Script MT", cursive;
@@ -31,10 +38,9 @@ body {
     text-align:center;
     padding:10px 0px;
 }
-.price {
-    font-size:2rem;
-    font-weight:bold;
-    margin-top:20px;
+.hero h1 {
+    font-family: "Script MT", cursive;
+    font-style: bold;
 }
 .container {
     margin:auto;
@@ -122,7 +128,9 @@ footer {
 
 <div class="hero">
     <h1>Ain't No Mutts About It!</h1>
-    <p>Professional Dog Grooming with Lori Horn</p>
+    <h2>Professional Dog Grooming with Lori Horn</h2>
+    <h3>Located in West Melbourne, Florida</h3>
+
     <div class="icon-bar">
        <a class="active" href="index.html"><i class="home"></i>Home</a>
        <a href="Aboutme.html"><i class="About Me"></i>About Me</a>
@@ -145,8 +153,7 @@ footer {
     </div>
 
     <div class="contact">
-        <h2>Contact Lori Horn</h2>
-        <p>Located in West Melbourne, Florida</p>
+        <h2>How to Contact Us</h2>
         <a class="btn" href="tel:0000000000">Call</a>
         <a class="btn" href="https://www.facebook.com/share/1BNuk8YZbk/?mibextid=wwXIfr">Message</a>
     </div>
