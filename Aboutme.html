@@ -19,6 +19,7 @@
     font-weight: normal;
     font-display: swap;
 }
+
 body {
     margin:0;
     font-family: "Brush Script MT", cursive;
@@ -45,9 +46,14 @@ body {
 .hero h2,h3 {
     font-family: "Brush Script MT", cursive;
 }
+.price {
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:20px;
+}
 .container {
     margin:auto;
-    padding:40px 20px;
+    padding:40px 40px;
     max-width:400px;
     align-items: center;
 }
@@ -55,15 +61,8 @@ body {
     background:white;
     background-align: center;
     padding:30px;
-    text-align:center;
     border-radius:15px;
     box-shadow:0 4px 15px rgba(0,0,0,.1);
-}
-.card1 {
-    background-align: center;
-    padding:30px;
-    border-radius:15px;
-    text-align:center;
 }
 ul { line-height:2; }
 .contact {
@@ -82,15 +81,6 @@ ul { line-height:2; }
     color:white;
     text-decoration:none;
     border-radius:30px;
-}
-.btn:hover {
-    background: #1E5CE3;
-}
-.img {
-   width:400px;
-   height:300px;
-   margin:auto;
-   
 }
 footer {
     background:#1f2a38;
@@ -132,31 +122,31 @@ footer {
 <div class="hero">
     <h1>Ain't No Mutts About It!</h1>
     <h2>Professional Dog Grooming with Lori Horn</h2>
-    <h4>Located in West Melbourne, Florida</h4>
-
     <div class="icon-bar">
        <a class="active" href="index.html"><i class="home"></i>Home</a>
        <a href="Aboutme.html"><i class="About Me"></i>About Me</a>
        <a href="index.html"><i class="Reviews"></i>Reviews</a>
     </div>
-
 </div>
-<div class="container">
-     <div class="card1" style="display: flex; justify-content: center; align-items: center;">
-        <img class="img" src="picwdogs.jpeg" alt="picwdogs style="display: block; margin: 0 auto;"">
-     </div>
 
+
+<div class="container">
     <div class="card">
-        <h2>About Me:</h2>
-	<p>
-	    My name is Lori Horn and welcome to Ain't No Mutts About It!
-            I provide gentle, professional grooming services in a calm and
-            caring environment. Your pets are treated like family every visit.
-	</p>
+        <h2>$65 Full Groom Includes</h2>
+        <ul>
+            <li>Shampoo and conditioning</li>
+            <li>Blow dry</li>
+            <li>De-matting and de-shedding</li>
+            <li>Shave, cut, trim, and shaping</li>
+            <li>Nail trimming</li>
+	    <li>Ear cleaning</li>
+            <li>Sanitary groom</li>
+        </ul>
     </div>
 
     <div class="contact">
-        <h2>How to Contact Us</h2>
+        <h2>How to Contact us</h2>
+        <p>Located in West Melbourne, Florida</p>
         <a class="btn" href="tel:0000000000">Call</a>
         <a class="btn" href="https://www.facebook.com/share/1BNuk8YZbk/?mibextid=wwXIfr">Message</a>
     </div>
